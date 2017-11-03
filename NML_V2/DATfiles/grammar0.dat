@@ -1,0 +1,72 @@
+# predefined grammar in natural language
+
+# abstract biological symbol
+SBioSym: single biological symbol;
+MBioSym: multiple biological symbols;
+
+# logic
+parenthesis > and > or
+# combinations:
+(parenthesis, and) --> BioSymType1
+(and, or) --> BioSymType2
+(and) --> BioSymType3
+single biological symbol --> sBioSym
+multiple biological symbols --> mBioSym
+(BioSymType1 | BioSymType2 | BioSymType3) = mBioSym
+(sBioSym, mBioSym) = BioSym
+S = phosphorylation site
+[] = default symbol (unknown mechanism)
+
+# symbol conversion
+A is/was B;
+As are/were Bs;
+
+# react
+sBioSym reacts/reacted/reacting into sBioSym;
+mBioSym react/reacted/reacting into mBioSym;
+
+# uptake
+the cell uptakes/uptaking/uptook BioSym;
+the cell uptakes/uptaking/uptook BioSym through/via BioSym;
+
+# secrete
+the cell secretes/secreting/secreted BioSym;
+the cell secretes/secreting/secreted BioSym through/via BioSym;
+
+# bind
+BioSymType3 bind/bound/binding/associate/associated/associating/complex/complexed/complexing together;
+BioSymType3 bind/bound/binding/associate/associated/associating/complex/complexed/complexing together into sBioSym;
+
+# unbind
+sBioSym unbinds/unbound/unbinding/dissociates/dissociated/dissociating;
+sBioSym unbinds/unbound/unbinding/dissociates/dissociated/dissociating into BioSymType3;
+
+# phosphorylation
+sBioSym phosphorylates/phosphorylated/phosphorylating sBioSym/BioSymType3;
+BioSymType2 phosphorylate/phosphorylated/phosphorylating sBioSym;
+sBioSym phosphorylates/phosphorylated/phosphorylating sBioSym at site S;
+BioSymType2 phosphorylate/phosphorylated/phosphorylating sBioSym at site S;
+
+# dephosphorylation
+sBioSym dephosphorylates/dephosphorylated/dephosphorylating sBioSym/BioSymType3;
+BioSymType2 dephosphorylate/dephosphorylated/dephosphorylating sBioSym;
+sBioSym dephosphorylates/dephosphorylated/dephosphorylating sBioSym at site S;
+BioSymType2 dephosphorylate/dephosphorylated/dephosphorylating sBioSym at site S;
+
+# activation
+sBioSym upregulates/upregulated/upregulating/promotes/promoted/promoting/activates/activated/activating sBioSym/BioSymType3;
+BioSymType3 upregulate/upregulated/upregulating/promote/promoted/promoting/activate/activated/activating sBioSym;
+sBioSym upregulates/upregulated/upregulating/promotes/promoted/promoting/activates/activated/activating the expression/transcription/translation of sBioSym/BioSymType3;
+BioSymType3 upregulate/upregulated/upregulating/promote/promoted/promoting/activate/activated/activating the expression/transcription/translation of sBioSym;
+
+# inhibition
+sBioSym downregulates/downregulated/downregulating/represses/repressed/repressing/inhibits/inhibited/inhibiting sBioSym/BioSymType3;
+BioSymType3 downregulate/downregulated/downregulating/repress/repressed/repressing/inhibit/inhibited/inhibiting sBioSym;
+sBioSym downregulates/downregulated/downregulating/represses/repressed/repressing/inhibits/inhibited/inhibiting the expression/transcription/translation of sBioSym/BioSymType3;
+BioSymType3 downregulate/downregulated/downregulating/repress/repressed/repressing/inhibit/inhibited/inhibiting the expression/transcription/translation of sBioSym;
+
+# catalysis
+sBioSym catalyzes/catalyzed/catalyzing the conversion of BioSymType3 into BioSymType3;
+sBioSym catalyzes/catalyzed/catalyzing the reversible conversion of BioSymType3 into BioSymType3;
+BioSymType2 catalyze/catalyzed/catalyzing the conversion of BioSymType3 into BioSymType3;
+BioSymType2 catalyze/catalyzed/catalyzing the reversible conversion of BioSymType3 into BioSymType3;
