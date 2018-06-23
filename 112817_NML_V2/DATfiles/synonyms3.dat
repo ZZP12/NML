@@ -1,0 +1,68 @@
+
+SentenceType = is, react, uptake, secrete, bind, unbind, phosphorylate,
+SentenceType = dephosphorylate, induce, activate, repress, inhibit, catalyze
+
+# synonyms list
+negligible = the, The, cell, together, to, form
+negligible = expression, of, transcription, translation, conversion
+
+
+# symbol conversion
+is = is, was, are, were
+
+# react
+react = react, reacted reacting, reacts
+into = into
+irreversible = irreversible, irreversibly 
+
+# uptake
+uptake = uptake, uptakes, uptaking, uptook
+via = via, through
+negligible = the, cell
+
+# secrete
+secrete = secrete, secretes, secreting, secreted
+via = via, through
+negligible = the, cell
+
+# bind
+bind = bind, bound, binds, binding, associate, associates, associated, associating
+bind = complex, complexes, complexed, complexing
+into = into
+negligible = together
+
+# unbind
+unbind = unbind, unbinds, unbound, unbinding
+unbind = dissociate, dissociates, dissociated, dissociating
+into = into
+
+# phosphorylation
+phosphorylate = phosphorylate, phosphorylates, phosphorylated, phosphorylating
+reversible = reversibly, reversible
+at = at
+site = site
+
+# dephosphorylation
+dephosphorylate = dephosphorylate, dephosphorylates, dephosphorylated, dephosphorylating
+at = at
+site = site
+
+# activation
+activate = activate, activates, activating, activated
+induce = promote, promotes, promoting, promoted
+induce = induce, induces, inducing, induced
+activate = upregulate, upregulates, upregulated, upregulating
+negligible = the, expression, of, transcription, translation
+
+# inhibition
+inhibit = inhibit, inhibits, inhibiting, inhibited
+repress = repress, represses, repressing, repressed
+repress = downregulate, downregulates, downregulated, downregulating
+negligible = the, expression, of, transcription, translation
+
+# catalysis
+catalyze = catalyze, catalyzes, catalyzed, catalyzing
+catalyze = catalyse, catalyses, catalysed, catalysing
+reversible = reversible
+into = into
+negligible = the, conversion, of
