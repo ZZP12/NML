@@ -58,7 +58,7 @@ foreach(println, [s for s in BioSymVerbInfo])
 println("\n------------decoding bio symbols------------")
 decodingBioSymGroups(BioSymVerbInfo)
 println("\n------------decoding bio symbols results------------")
-printArrayOfTupleOfTokenAndMutipleLayersArray(BioSymVerbInfo, AbstractString)
+printArrayOfTripleToken(BioSymVerbInfo, AbstractString)
 
 
 # generate Intermediate Representation (IR)

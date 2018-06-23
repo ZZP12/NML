@@ -1,6 +1,6 @@
 
 SentenceType = is, react, uptake, secrete, bind, unbind, phosphorylate,
-SentenceType = dephosphorylate, induce, repress, catalyze 
+SentenceType = dephosphorylate, induce, activate, repress, inhibit, catalyze
 
 # synonyms list
 negligible = the, The, cell, together, to, form
@@ -13,6 +13,7 @@ is = is, was, are, were
 # react
 react = react, reacted reacting, reacts
 into = into
+irreversible = irreversible, irreversibly 
 
 # uptake
 uptake = uptake, uptakes, uptaking, uptook
@@ -37,7 +38,7 @@ into = into
 
 # phosphorylation
 phosphorylate = phosphorylate, phosphorylates, phosphorylated, phosphorylating
-reversible = reversibly
+reversible = reversibly, reversible
 at = at
 site = site
 
@@ -47,14 +48,14 @@ at = at
 site = site
 
 # activation
-induce = activate, activates, activating, activated
+activate = activate, activates, activating, activated
 induce = promote, promotes, promoting, promoted
 induce = induce, induces, inducing, induced
-induce = upregulate, upregulates, upregulated, upregulating
+activate = upregulate, upregulates, upregulated, upregulating
 negligible = the, expression, of, transcription, translation
 
 # inhibition
-repress = inhibit, inhibits, inhibiting, inhibited
+inhibit = inhibit, inhibits, inhibiting, inhibited
 repress = repress, represses, repressing, repressed
 repress = downregulate, downregulates, downregulated, downregulating
 negligible = the, expression, of, transcription, translation

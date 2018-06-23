@@ -1,5 +1,3 @@
-
-
 # multiple branches merge at node "sBioSym"
 # how can we handle "activates/activated/activating/activate"
 #     --> enable written by sets --> normalization
@@ -29,7 +27,7 @@ BioSym unbind into BioSym
 
 # phosphorylation
 BioSym phosphorylate BioSym
-BioSym reversibly phosphorylate BioSym 
+BioSym reversibly phosphorylate BioSym
 BioSym phosphorylate BioSym at site BioSym
 
 # dephosphorylation

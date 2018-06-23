@@ -1,0 +1,10 @@
+# Q paper example
+the cell uptakes met_A_e via p_TA_c
+p_E_c catalyzes the conversion of met_A_c into met_B_c
+the cell secretes met_B_c via p_TB_c
+met_A_c activates p_TA_c and p_E_c
+met_B_c activates p_TB_c
+
+
+met_, p_, mRNA_, g_ are METABOLITE, PROTEIN, MRNA, GENE
+_e, _c are _exc, _c

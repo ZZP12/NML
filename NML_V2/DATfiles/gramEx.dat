@@ -1,0 +1,9 @@
+# grammar example
+p_D_c catalyzes the reversible conversion of M_acald_c, M_coa_c and M_nad_c into M_accoa_c, M_h_c and M_nadh_c
+
+M_, p_, mRNA_, g_ are METABOLITE, PROTEIN, MRNA, GENE
+_e, _c are _exc, _c
+
+
+#1.0*M_acald_c+1.0*M_coa_c+1.0*M_nad_c<catalyze:1.0*p_D_c>1.0*M_accoa_c+1.0*M_h_c+1.0*M_nadh_c
+#1.0*M_accoa_c+1.0*M_h_c+1.0*M_nadh_c<catalyze:1.0*p_D_c>1.0*M_acald_c+1.0*M_coa_c+1.0*M_nad_c
