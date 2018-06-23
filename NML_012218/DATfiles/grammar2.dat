@@ -1,0 +1,8 @@
+
+# abstract grammar rules
+BioSym activates/activated/activating BioSym
+BioSym activates/activated/activating BioSym
+
+# Q? not only position & name, also related to its parent 
+BioSym and BioSym activate/activated/activating BioSym
+BioSym and BioSym or BioSym activate/activated/activating BioSym

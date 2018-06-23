@@ -1,0 +1,17 @@
+
+# test files
+
+BioSym activates BioSym
+BioSym is activated by BioSym
+
+# sentence with only one token
+BioSym
+
+# grammar error
+mBioSym activates BioSym
+
+# incomplete
+sBioSym is activated by
+
+# wrong at the beginning
+Bio activates mBioSym
