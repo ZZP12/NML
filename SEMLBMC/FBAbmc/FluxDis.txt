@@ -1,0 +1,8 @@
+# column#   reaction 
+# 1 1.0*m_A_e<uptake:>1.0*m_A_c
+# 2 1.0*m_A_c<catalyze:>1.0*m_B_c
+# 3 1.0*m_B_c<catalyze:>1.0*m_A_c
+# 4 1.0*m_A_c<catalyze:>1.0*m_C_c
+# 5 1.0*m_C_c<catalyze:>1.0*m_B_c
+# 6 1.0*m_B_c<secrete:>1.0*m_B_e
+# 7 1.0*m_C_c<secrete:>1.0*m_C_e
